@@ -165,6 +165,12 @@ body {
     .timeNumber {
         font-size: 4rem;
     }
+
+    .sideRight {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -196,6 +202,7 @@ body {
     .time .timeNumber {
         font-size: 3.5rem;
     }
+
 }
 
 @keyframes jump {
